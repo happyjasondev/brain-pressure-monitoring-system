@@ -3,7 +3,7 @@ A practice program that monitors intracranial pressure, coded in Python.
 It processes time-series intracranial pressure (ICP) readings, flags early signs of shunt blockage or acute pressure surges, and shows the result on a live dashboard.
 All data is synthetic.
 
-## 📖 How to View the Website
+## 📖 How to View on the Website
 In a browser, copy and paste this URL on the search bar: `https://brain-pressure-monitoring-system.netlify.app/`
 
 **How it works:**
