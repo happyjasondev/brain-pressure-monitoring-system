@@ -4,7 +4,7 @@ It processes time-series intracranial pressure (ICP) readings, flags early signs
 All data is synthetic.
 
 ## 📖 How to View on the Website
-In a browser, copy and paste this URL on the search bar: `https://brain-pressure-monitoring-system.netlify.app/`
+In a browser, copy and paste this URL on the search bar: `https://happyjasondev.github.io/brain-pressure-monitoring-system/`
 
 **How it works:**
 1. Simulate	`generate_data.py`:	Creates 4 hours of ICP data (480 readings, one every 30s). It has a normal baseline of about 11 mmHg, sensor noise, brief movement artifacts, a slow shunt-blockage climb, and a sharp acute spike.
