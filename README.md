@@ -34,11 +34,9 @@ LSTM that keeps the demo dependency-free. Swap in a real LSTM
 6. A combined traffic-light risk_level per timestamp: "normal" / "warning" / "high_risk"
 
 ## 📖 How to View the Website
-1. Type this into a terminal or command prompt: `git clone https://github.com/happyjasondev/brain-pressure-monitoring-system.git`
-2. Open `index.html` in any modern web browser.
+In a browser, copy and past this URL on the search bar: `https://brain-pressure-monitoring-system.netlify.app/`
 
 **Disclaimer:**
-Analysis intentionally only reads icp_mmhg, never event_label - the
-ground truth column is dropped before any detection logic runs, so the
+Analysis intentionally only reads icp_mmhg, never event_label - the ground truth column is dropped before any detection logic runs, so the
 pipeline is evaluated the same way it would run on a real unlabeled stream.
 This program does not constitute a medical diagnosis. Actual clinical interpretation must still be performed by a professional physician.
